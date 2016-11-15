@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<!--<typeAlias type="org.log.entity.UserRegistBean" alias="UserRegistBean"/>-->
+		<!--<typeAlias type="org.log.entity.UserLoginBean" alias="UserLoginBean"/>-->
+		<!--<typeAlias type="org.log.entity.FileUploadBean" alias="FileUploadBean"/>-->
+		<!--<typeAlias type="org.log.entity.FileListBean" alias="FileListBean"/>-->
+
+		<!--此标签用于生成所有 org.log.entity 包下类的别名
+					默认为 去掉包名 与上述标签效果相同       -->
+		<package name="org.log.entity"/>
+	</typeAliases>
+</configuration>
